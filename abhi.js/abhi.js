@@ -28,6 +28,7 @@ const ClientNotesForm = () => {
                   <div className="client_notes_btn mb-6">
                     <h5>Write Notes About Me</h5>
                   </div>
+                  <p>hello My name is Montu</p>
                   <Typography className="w-2/4 p-0 inline edit_notes_fiels">
                     <label className="leading-5 text-lg text-gray-500"></label>
                     <TextareaAutosize
