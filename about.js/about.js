@@ -23,9 +23,9 @@ const Home = () => {
             <div className="mainSectionHead">
               <h2>BOOST PERFORMANCE EFFORTLESSLY</h2>
               <p>
-                Maximum benefits through science-backed breathing AI Okay.
+                My name is Abhishek & i love someOne how hates me so much.
                 <br />
-                Drug-free, safe & effective which make you healthy.
+                but me fir bhi tumko chahuga , me fir bhi tumko chahuga.
               </p>
             </div>
             <Row>
