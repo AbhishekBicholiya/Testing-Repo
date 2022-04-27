@@ -23,9 +23,9 @@ const Home = () => {
             <div className="mainSectionHead">
               <h2>BOOST PERFORMANCE EFFORTLESSLY</h2>
               <p>
-                Maximum benefits through science-backed breathing AI.
+                Maximum benefits through science-backed breathing AI Okay.
                 <br />
-                Drug-free, safe & effective.
+                Drug-free, safe & effective which make you healthy.
               </p>
             </div>
             <Row>
@@ -38,13 +38,13 @@ const Home = () => {
               <Col lg={4}>
                 <div className="icon">
                   <ImprovePopUp />
-                  <h5>Improve Task Focus</h5>
+                  <h5>Improve Task Focus By Maditation</h5>
                 </div>
               </Col>
               <Col lg={4}>
                 <div className="icon">
                   <FallPopUp />
-                  <h5>Fall Asleep Easier</h5>
+                  <h5>Fall Asleep Easier & Ignore Stress</h5>
                 </div>
               </Col>
             </Row>
