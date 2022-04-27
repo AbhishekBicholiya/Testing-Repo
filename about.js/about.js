@@ -6,7 +6,7 @@ import Banner from "./Banner/Banner";
 import VideoContainer from "./VideoContainer/VideoContainer";
 import BuildPopPup from "./HomePopPup/BuildPopUp";
 import ImprovePopUp from "./HomePopPup/ImprovePopUp";
-import FallPopUp from './HomePopPup/FallPopUp';
+import FallPopUp from "./HomePopPup/FallPopUp";
 
 const Home = () => {
   return (
@@ -31,19 +31,19 @@ const Home = () => {
             <Row>
               <Col lg={4}>
                 <div className="icon">
-                    <BuildPopPup/>
-                  <h5>Build Stress Resilience</h5>
+                  <BuildPopPup />
+                  <h5>Build Stress Resilience Make you Happy</h5>
                 </div>
               </Col>
               <Col lg={4}>
                 <div className="icon">
-                 <ImprovePopUp/>
+                  <ImprovePopUp />
                   <h5>Improve Task Focus</h5>
                 </div>
               </Col>
               <Col lg={4}>
                 <div className="icon">
-                  <FallPopUp/>
+                  <FallPopUp />
                   <h5>Fall Asleep Easier</h5>
                 </div>
               </Col>
