@@ -1,9 +1,38 @@
-import { SHOW_ERR, CLEAR_ERR } from "./types";
+import { SHOW_ERR, CLEAR_
+    
+    
 
-/** actions for toggling error message */
-export function showErr(msg) {
-  return { type: SHOW_ERR, msg };
+
+
+
+    r 
+    
+     error message */
+export function
+
+showErr(msg) {
+  return { type: SHOW_ERR,
+     msg };
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
 export function clearErr() {
-  return { type: CLEAR_ERR };
+  return { 
+      
+    type: C
+    
+    LEAR_ERR };
 }
+
+

@@ -18,64 +18,77 @@ const Home = () => {
         <div>
           <Banner />
         </div>
+
         <section className="mainSection">
+
           <Container>
+
             <div className="mainSectionHead">
               <h2>BOOST PERFORMANCE EFFORTLESSLY</h2>
               <p>
-                My name is Abhishek & i love someOne how hates me so much.
+                  
+                  One how hates me so much.
+
+
                 <br />
+
+
                 but me fir bhi tumko chahuga , me fir bhi tumko chahuga.
               </p>
             </div>
             <Row>
               <Col lg={4}>
                 <div className="icon">
+
+
+
                   <BuildPopPup />
                   <h5>Build Stress Resilience Make you Happy</h5>
                 </div>
+
               </Col>
               <Col lg={4}>
+
+
                 <div className="icon">
                   <ImprovePopUp />
                   <h5>Improve Task Focus By Maditation</h5>
                 </div>
+                
               </Col>
               <Col lg={4}>
                 <div className="icon">
                   <FallPopUp />
-                  <h5>Fall Asleep Easier & Ignore Stress</h5>
+                  <h5>Fall Asleep Easi
+                      
+                      er & Ignore Stress</h5>
                 </div>
               </Col>
+
+
             </Row>
           </Container>
         </section>
         <div>
           <VideoContainer />
+
         </div>
         <div className="downloadSection">
           <Container>
+
+
+
+
             <Row>
               <div className="footerSignUp">
                 <h4>GET EARLY ACCESS</h4>
-                <div className="signUp">
-                  <form autoComplete="off">
-                    <div>
-                      <label for="email"></label>
+                <div classNam
+                ="signUp">
+                    
+                    "email"></label>
                       <input
-                        type="email"
-                        name="email"
-                        placeholder="Enter Email Address"
-                      />
-                    </div>
-                    <div>
-                      <button type="submit">SIGN UP</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </Row>
-          </Container>
+                        type="e
+                        
         </div>
       </section>
       <HomeFooter />
