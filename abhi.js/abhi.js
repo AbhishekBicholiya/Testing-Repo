@@ -14,7 +14,7 @@ const ClientNotesForm = () => {
   return (
     <>
       {clientNotesDetail ? (
-        <ClientNotesDetail />
+        <ClientNotesDetail Hello Abhishek />
       ) : (
         <div>
           <Stack
