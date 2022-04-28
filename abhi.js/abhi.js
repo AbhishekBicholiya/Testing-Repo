@@ -14,7 +14,7 @@ const ClientNotesForm = () => {
   return (
     <>
       {clientNotesDetail ? (
-        <ClientNotesDetail />
+        <ClientNotesDetail Hello Abhishek />
       ) : (
         <div>
           <Stack
@@ -26,9 +26,9 @@ const ClientNotesForm = () => {
               <Grid item lg={12} md={12} sm={12} xs={12}>
                 <div className="client_form_wrapper">
                   <div className="client_notes_btn mb-6">
-                    <h5>Write Notes About Me</h5>
+                    <h5>Write Notes About Me and my girlfriend</h5>
                   </div>
-                  <p>hello My name is Montu</p>
+                  <p>hello My name is Montu and i am from indore</p>
                   <Typography className="w-2/4 p-0 inline edit_notes_fiels">
                     <label className="leading-5 text-lg text-gray-500"></label>
                     <TextareaAutosize
