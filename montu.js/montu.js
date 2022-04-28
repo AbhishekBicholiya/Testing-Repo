@@ -19,20 +19,17 @@ export function getProductsFromApi(token) {
 		}
 	};
 }
-
 function getProducts(products) {
 	return {
 		type     : FETCH_PRODUCTS,
 		products
 	};
 }
-
 export function removeProducts() {
 	return {
 		type : REMOVE_PRODUCTS
 	};
 }
-
 /** actions for toggling error message */
 export function showErr(msg) {
   return { type: SHOW_ERR, msg };

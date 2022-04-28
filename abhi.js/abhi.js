@@ -37,8 +37,7 @@ const ClientNotesForm = () => {
                       id="editNotes"
                       name="editNotes"
                       minRows={2}
-                      type="text"
-                    />
+                      type="text"/>
                   </Typography>
                 </div>
               </Grid>
@@ -51,9 +50,8 @@ const ClientNotesForm = () => {
                   fontWeight: 600,
                   fontSize: { xs: "1rem", iphone: "1.125rem" },
                   lineHeight: { xs: "1.5rem", iphone: "1.75rem" },
-                }}
-              >
-                Cancel
+                }}>
+                Cancel Your Anger
               </Button>
               <Button
                 className="h-14 Client_btn text-white w-10 px-3 bg-clientBlue ml-4"
@@ -62,9 +60,8 @@ const ClientNotesForm = () => {
                   fontWeight: 600,
                   fontSize: { xs: "1rem", iphone: "1.125rem" },
                   lineHeight: { xs: "1.5rem", iphone: "1.75rem" },
-                }}
-              >
-                Save karke to dekho
+                }}>
+                Save My Heart
               </Button>
             </Box>
           </Stack>

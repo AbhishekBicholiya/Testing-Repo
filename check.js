@@ -6,7 +6,6 @@ const Timer = ({ seconds, setSeconds }) => {
 		const intervalId = setInterval(() => {
 			setSeconds((seconds) => seconds + -1);
 		}, 1000);
-
 		return () => {
 			console.log('CLEANUP FUNCTION!!');
 			console.log(intervalId);
@@ -16,5 +15,4 @@ const Timer = ({ seconds, setSeconds }) => {
 
 	return <h1>{seconds}</h1>;
 };
-
 export default Timer;
