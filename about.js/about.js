@@ -17,6 +17,7 @@ const Home = () => {
         </div>
         <div>
           <Banner />
+          <p>hello abhishek</p>
         </div>
         <section className="mainSection">
           <Container>
@@ -49,6 +50,11 @@ const Home = () => {
               </Col>
             </Row>
           </Container>
+          <div>
+            <h2>
+              mera naam abhishek hai
+            </h2>
+          </div>
         </section>
         <div>
           <VideoContainer />

@@ -3,12 +3,6 @@ import SublyApi from '../helpers/Api';
 import { FETCH_PRODUCTS, REMOVE_PRODUCTS } from './types';
 import { showErr } from './errors';
 
-/** Function for retrieving and storing stripe products 
- * 
- * This will get all active products on the Jane Rothe Stripe account
- * 
- * Returns {products: [{id...unit_amount... product:{name, description}...}...]}
-*/
 export function getProductsFromApi(token) {
 	return async function(dispatch) {
 		try {
