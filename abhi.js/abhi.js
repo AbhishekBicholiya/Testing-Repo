@@ -1,4 +1,3 @@
-import React, { useState, useEffect, useRef } from "react";
 import Box from "@mui/material/Box";
 import TextareaAutosize from "@mui/material/TextareaAutosize";
 import Typography from "@mui/material/Typography";
@@ -14,7 +13,7 @@ const ClientNotesForm = () => {
   return (
     <>
       {clientNotesDetail ? (
-        <ClientNotesDetail Hello Abhishek />
+        <ClientNotesDetail Hello Abhishek do you know me />
       ) : (
         <div>
           <Stack
@@ -38,6 +37,7 @@ const ClientNotesForm = () => {
                       minRows={2}
                       type="text"
                     />
+                    
                   </Typography>
                 </div>
               </Grid>
