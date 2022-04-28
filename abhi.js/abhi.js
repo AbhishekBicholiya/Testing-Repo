@@ -1,6 +1,4 @@
 import Box from "@mui/material/Box";
-import TextareaAutosize from "@mui/material/TextareaAutosize";
-import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
@@ -43,7 +41,6 @@ const ClientNotesForm = () => {
             </Grid>
             <Box className="flex justify-end">
               <Button
-                className="h-14 Client_btn client_cancel_btn text-white w-10 px-4"
                 type="button"
                 sx={{
                   fontWeight: 600,

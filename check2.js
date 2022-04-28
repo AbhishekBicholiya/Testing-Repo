@@ -1,8 +1,5 @@
 import axios from 'axios';
 import SublyApi from '../Api';
-
-import { FETCH_USER } from './types';
-
 export function getUserFromAPI(username, token) {
 	return async function(dispatch) {
 		try {
@@ -13,7 +10,6 @@ export function getUserFromAPI(username, token) {
 		}
 	};
 }
-
 function getUser(user) {
 	return {
 		type : FETCH_POST,
