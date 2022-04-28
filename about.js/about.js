@@ -66,8 +66,7 @@ const Home = () => {
                       sdd
                         type="email"
                         name="email"
-                        placeholder="Enter Email Address"
-                      />
+                        placeholder="Enter Email Address"/>
                     </div>
                     <div>
                       <button type="submit">S
