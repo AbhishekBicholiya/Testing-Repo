@@ -63,13 +63,15 @@ const Home = () => {
                     <div>
                       <label for="email"></label>
                       <input
+                      sdd
                         type="email"
                         name="email"
                         placeholder="Enter Email Address"
                       />
                     </div>
                     <div>
-                      <button type="submit">SIGN UP</button>
+                      <button type="submit">S
+                      asasdIGN UP</button>
                     </div>
                   </form>
                 </div>
@@ -77,6 +79,7 @@ const Home = () => {
             </Row>
           </Container>
         </div>
+        cahncuiacg
       </section>
       <HomeFooter />
     </>
