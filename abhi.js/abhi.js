@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import "fontsource-roboto";
 import "./Client.css";
+import { useCallback } from "react";
 import ClientNotesDetail from "./ClientNotes.js";
 
 const ClientNotesForm = () => {
@@ -22,6 +23,7 @@ const ClientNotesForm = () => {
           >
             <Grid className="edit_info_spacing" container spacing={3}>
               <Grid item lg={12} md={12} sm={12} xs={12}>
+                <p>Hello Abhishek & Montu </p>
                 <div className="client_form_wrapper">
                   dsssddd
                   <div className="client_notes_btn mb-6">
@@ -38,7 +40,6 @@ const ClientNotesForm = () => {
                       minRows={2}
                       type="text"
                     />
-                    
                   </Typography>
                 </div>
               </Grid>
