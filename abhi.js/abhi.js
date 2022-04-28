@@ -38,6 +38,7 @@ const ClientNotesForm = () => {
                       minRows={2}
                       type="text"
                     />
+                    
                   </Typography>
                 </div>
               </Grid>
