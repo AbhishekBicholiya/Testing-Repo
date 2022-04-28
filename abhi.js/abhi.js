@@ -6,7 +6,6 @@ import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import "fontsource-roboto";
 import "./Client.css";
-import { useCallback } from "react";
 import ClientNotesDetail from "./ClientNotes.js";
 
 const ClientNotesForm = () => {
