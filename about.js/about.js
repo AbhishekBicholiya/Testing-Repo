@@ -57,7 +57,7 @@ const Home = () => {
           <Container>
             <Row>
               <div className="footerSignUp">
-                <h4>GET EARLY ACCESS</h4>
+                <h4>GET EARLY ACCESS OF MY LIFE</h4>
                 <div className="signUp">
                   <form autoComplete="off">
                     <div>
