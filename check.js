@@ -12,7 +12,6 @@ const Timer = ({ seconds, setSeconds }) => {
 			clearInterval(intervalId);
 		};
 	}, []);
-
 	return <h1>{seconds}</h1>;
 };
 export default Timer;
