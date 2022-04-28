@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 const Timer = ({ seconds, setSeconds }) => {
 	// const [ seconds, setSeconds ] = useState(8);
 	useEffect(() => {
@@ -7,7 +8,6 @@ const Timer = ({ seconds, setSeconds }) => {
 			setSeconds((seconds) => seconds + -1);
 		}, 1000);
 		return () => {
-			console.log('CLEANUP FUNCTION!!');
 			console.log(intervalId);
 			clearInterval(intervalId);
 		};
