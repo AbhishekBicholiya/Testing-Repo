@@ -1,16 +1,20 @@
-function abhi() {
-    return (
-        <Button
-                className="h-14 Client_btn client_cancel_btn text-white w-10 px-4"
-                type="button"
-                onClick={() => setClientNotesDetail(true)}
-                sx={{
-                  fontWeight: 600,
-                  fontSize: { xs: "1rem", iphone: "1.125rem" },
-                  lineHeight: { xs: "1.5rem", iphone: "1.75rem" },
-                }}
-              >
-                Cancel
-              </Button>
-    )
-}
+import React, { useState, useEffect } from 'react';
+
+const Timer = ({ seconds, setSeconds }) => {
+	// const [ seconds, setSeconds ] = useState(8);
+	useEffect(() => {
+		const intervalId = setInterval(() => {
+			setSeconds((seconds) => seconds + -1);
+		}, 1000);
+
+		return () => {
+			console.log('CLEANUP FUNCTION!!');
+			console.log(intervalId);
+			clearInterval(intervalId);
+		};
+	}, []);
+
+	return <h1>{seconds}</h1>;
+};
+
+export default Timer;
