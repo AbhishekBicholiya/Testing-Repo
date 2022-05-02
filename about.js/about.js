@@ -1,4 +1,3 @@
-import "./Home.css";
 import { Container, Row, Col } from "react-bootstrap";
 import HomeFooter from "../HomeFooter/HomeFooter";
 import HomeHeader from "../HomeHeader/HomeHeader";
