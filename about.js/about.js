@@ -75,8 +75,7 @@ const Home = () => {
                         placeholder="Enter Email Address"/>
                     </div>
                     <div>
-                      <button type="submit">S
-                      asasdIGN UP</button>
+                      <button type="submit">SIGN UP WITH YOUR HEART</button>
                     </div>
                   </form>
                 </div>

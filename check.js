@@ -1,6 +1,3 @@
-import React, { useState, useEffect } from 'react';
-
-
 const Timer = ({ seconds, setSeconds }) => {
 	// const [ seconds, setSeconds ] = useState(8);
 	useEffect(() => {
